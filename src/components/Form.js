@@ -42,7 +42,7 @@ const Form = ({
           onChange={(e) => setPassword(e.target.value)}
         />
 
-        <div className="revealPassword" onClick={() => togglePassword()}>
+        <div className="revealPassword" onClick={togglePassword}>
           {passwordType === "password" ? (
             <FontAwesomeIcon className="eye-slash" icon="eye-slash" size="1x" />
           ) : (
@@ -60,7 +60,7 @@ const Form = ({
           placeholder="lErEaCtEuR2020"
           onChange={(e) => setConfirmPassword(e.target.value)}
         />
-        <div className="revealPassword" onClick={() => togglePasswordConfirm()}>
+        <div className="revealPassword" onClick={togglePasswordConfirm}>
           {passwordTypeConfirm === "password" ? (
             <FontAwesomeIcon className="eye-slash" icon="eye-slash" size="1x" />
           ) : (

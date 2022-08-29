@@ -127,7 +127,7 @@ form > span {
 
 .passwordContainer .revealPassword {
   position: absolute;
-  top: 15px;
+  top: 18px;
   right: 15px;
   cursor: pointer;
 }
