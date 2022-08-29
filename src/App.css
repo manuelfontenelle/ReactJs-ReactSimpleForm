@@ -55,11 +55,15 @@ form input {
 .submit-button,
 .back-button {
   color: white;
-  background-color: #5c47d3;
-  border: 1px solid #5c47d3;
+  background-color: #130f2c;
+  border: 1px solid #130f2c;
   font-size: 15px;
   font-weight: bold;
   margin-top: 20px;
+}
+.submit-button:hover,
+.back-button:hover {
+  background-color: #1731dc;
 }
 
 .back-button {
@@ -99,16 +103,31 @@ form > span {
   font-weight: bold;
 }
 
-.fa-eye {
+/* .fa-eye {
   position: relative;
   z-index: 1;
   left: -30px;
   color: #7b7b7b;
   cursor: pointer;
-}
+} */
 
 @media (max-width: 1024px) {
   .container {
     width: auto;
   }
+}
+
+.passwordContainer {
+  position: relative;
+}
+
+/* .passwordContainer input {
+  padding-left: 40px;
+} */
+
+.passwordContainer .revealPassword {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
 }
