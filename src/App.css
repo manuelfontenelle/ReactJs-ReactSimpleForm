@@ -121,10 +121,6 @@ form > span {
   position: relative;
 }
 
-/* .passwordContainer input {
-  padding-left: 40px;
-} */
-
 .passwordContainer .revealPassword {
   position: absolute;
   top: 18px;
